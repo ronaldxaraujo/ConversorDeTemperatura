@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #a400cd;
+}
+
+.containerGeral{
+width: 400px;
+height: 500px;
+}
+
+.containerInterno{
+    background: rebeccapurple;
+    height: 300px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    border-radius: 15px;
+}
+
+h3{
+    padding: 20px;
+    margin-top: 20px;
+}
+
+p{
+    margin-bottom: 10px;
+}
+
+input{
+    margin: 5px;
+    border-radius: 5px;
+    border-style: none;
+}
